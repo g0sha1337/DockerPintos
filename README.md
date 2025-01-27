@@ -4,11 +4,13 @@ The main reason to run PintOS in Docker is to avoid dependency conflicts
 ## How to run pintos into docker container with shared volume for patching pintos sources with your favourite IDE
 
 I'm gonna use windows 11 with wsl ubuntu22:04. You can also do that on your distro.
-#### STEP 1 - PULL UBUNTU IMAGE
+#### STEP 1 - CLONE REPOSITORY
 
 ``` bash
-docker pull ubuntu
+git clone https://github.com/g0sha1337/DockerPintos.git
 ```
+
+or download .zip and unarchive
 
 #### STEP 2 - BUILD 
 
