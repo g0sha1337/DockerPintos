@@ -76,6 +76,7 @@ To allow programs running outside of the docker container to access reading and 
 sudo chmod 777 /var/lib/docker/volumes/PintOSVolume  -R
 ```
 777 - gives all permissions. You can also give permissions that you need.
+
 -R - Recursively sets permissions on all files and directories inside PintOSVolume
 
 
