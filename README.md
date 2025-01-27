@@ -77,4 +77,8 @@ sudo chmod 777 /var/lib/docker/volumes/PintOSVolume  -R
 -R - Recursively sets permissions on all files and directories inside PintOSVolume
 
 
+# RESULT 
+
+You can access to  `/var/lib/docker/volumes/PintOSVolume` and open this directory in your favourite IDE (such us vscode) 
+
 
