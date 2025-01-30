@@ -15,7 +15,7 @@ or download .zip and unarchive
 #### STEP 2 - BUILD 
 
 ```
-docker build -t pitos .
+docker build -t pintosdist .
 ```
 
 #### STEP 3 - CREATE SHARED VOLUME
@@ -27,7 +27,7 @@ docker volume create PintOSVolume
 #### STEP 4 - RUN CONRAINER 
 
 ```
-docker run --name pintos --mount type=volume,src=PintOSVolume,dst=/home -d PintOS sleep 2147483647
+docker run --name pintos --mount type=volume,src=PintOSVolume,dst=/home -d pintosdist sleep 2147483647
 ```
 
 #### STEP 5 - CHECK FOR RUNNING CONTAINERS 
