@@ -15,7 +15,7 @@ or download .zip and unarchive
 #### STEP 2 - BUILD 
 
 ```
-docker build -t PintOS .
+docker build -t pitos .
 ```
 
 #### STEP 3 - CREATE SHARED VOLUME
