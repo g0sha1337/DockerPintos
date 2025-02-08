@@ -17,6 +17,7 @@ or download .zip and unarchive
 ```
 docker build -t pintosdist .
 ```
+..dont forget point at the and of command:)
 
 #### STEP 3 - CREATE SHARED VOLUME
 
